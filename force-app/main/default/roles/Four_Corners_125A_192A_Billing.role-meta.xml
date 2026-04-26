@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>Four Corners WPA Billing</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>Four Corners - 125A 192A - Billing</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>Business_Lead</parentRole>
+</Role>
