@@ -150,7 +150,8 @@ public with sharing class TicketSchedularController {
 
                 // ── Lookup fields: set null when blank, Id when not ──
                 else if (fieldName == 'Disposal_Facility__c') {
-                     ticket.Disposal_Facility__c = isEmpty ? null : (Id) value;
+                       System.debug(fieldName);
+                         ticket.Disposal_Facility__c = isEmpty ? null : (Id) value;
                 }
 
                 // ── Date fields: parse string → Date ──
